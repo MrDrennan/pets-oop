@@ -1,0 +1,15 @@
+{
+  "name": "328/pets-oop",
+  "authors": [
+    {
+      "name": "Chad Drennan",
+      "email": "cdrennan@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/"]
+  }
+}

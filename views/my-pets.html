@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Pets</title>
+</head>
+<body>
+    <h1>My Pets</h1>
+    {{ @pet1->eat() }}
+    {{ @pet2->talk() }}
+    <p>My pet's name is {{ @pet2->getName() }}</p>
+    <p>My pet's color is {{ @pet2->getColor() }}</p>
+
+    <p>My dog's name is {{ @dog1->getName() }}</p>
+    {{ @dog1->fetch() }}
+    {{ @dog1->talk() }}
+</body>
+</html>
